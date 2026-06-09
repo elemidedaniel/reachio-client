@@ -98,7 +98,7 @@ function Hero() {
             padding: '5px 14px', borderRadius: '40px',
           }}>
             <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#22C55E', display: 'inline-block' }} />
-            Free to use — no credit card required
+            Free to use, no credit card required
           </span>
         </motion.div>
 
@@ -132,7 +132,7 @@ function Hero() {
           }}
         >
           Add companies, write personalised email templates, and let Reachio
-          send up to 10 emails a day — automatically, with your name and voice,
+          send up to 10 emails a day automatically, with your name and voice,
           from your own Gmail.
         </motion.p>
 
@@ -498,7 +498,7 @@ function Pricing() {
                 'CV attachment per template',
                 'Scheduled & manual sending',
                 'Email log & notifications',
-                'Your own Gmail — no shared domain',
+                'Your own Gmail, no shared domain',
               ].map(item => (
                 <div key={item} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                   <div style={{ width: '18px', height: '18px', borderRadius: '50%', background: '#F0FDF4', border: '1px solid #BBF7D0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: '10px', color: '#16A34A' }}>
